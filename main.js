@@ -28,14 +28,14 @@ function draw(){
     harrypotter = song1.isPlaying();
     console.log(harrypotter);
 
-    if(scoreLeftWrist > 0.2){
-        circle(leftWristX,leftWristY,20);
-        song1.stop();
-        if(peterpan == false){
-            song2.play();
-            console.log("Song Name: Peter Pan Theme");
-            document.getElementById("name").innerHTML = "Song Name: Peter Pan";
-        }
+if(scoreLeftWrist > 0.2){
+    circle(lefttWristX,leftWristX,20);
+    song1.stop();
+    if(peterpan == false){
+        song2.play();
+        console.log("Song Name: Peter Pan Theme Song");
+        document.getElementById("name").innerHTML = "Song Name: Peter Pan Theme Song";
+    }
 }
 if(scoreRightWrist > 0.2){
     circle(rightWristX,rightWristX,20);
